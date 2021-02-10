@@ -1,0 +1,78 @@
+﻿@media screen and (max-width:1480px) { 
+
+	.mobile-box img{ padding: 70px; }
+}
+
+@media screen and (max-width:1024px) { 
+	.mobile-box img{ padding: 0; }
+	.welcome-box h1{ width: auto; font-size: 50px; line-height: normal; }
+	.welcome-box h4{ line-height: normal; font-size: 24px; }
+	.app-store-row, .tryitnow-row{ height: 400px; }
+	.animationbox{ padding-top: 60px; }
+	.navigation-list li a{ padding: 0;  }
+	.header, header{ padding: 15px; }
+}
+@media screen and (max-width:991px) { 
+	.navigation-list li a{ font-size: 16px; }
+	.login-btn-box{ width: 150px; height: 40px; }
+	.login-btn{ height: 40px; font-size: 16px; }
+	.logo-box{ width: 160px; }
+	.landing-page{ height: auto; padding-top: 80px; }
+	.welcome-box h1{ font-size: 40px; }
+	.mobile-box{ width: 400px; }
+	.solution-box{ padding: 0 15px 60px; }
+	h2.page-title{ font-size: 32px; }
+	h4.page-sub-title{ font-size: 21px; }
+	.app-button-box li{ width: auto; }
+	.app-button-box li a{ padding: 10px 35px; }
+	.app-button-box{ width: auto; }
+	.tryitnow-row img{ bottom: -100px; }
+	.addresslist li{ width: 100%; }
+}
+@media screen and (max-width:767px) { 
+
+	.menuIcon{display:inline-block;}
+	.navigation-list{ display: none; position: absolute; top: 70px; z-index: 2;padding:0; width: 100%; background-color: #fff; width: 100%; left: 0;}
+	.navigation-list > li + li:before{ display: none; }
+	.navigation-list > li{ width: 100%; margin: 0; padding: 0 15px;}
+	.navigation-list li a{ margin-right: 0; line-height: 50px;  }
+	.navigation-list li a:after{ display: none; }
+	.al-image-box{ width: 60px; height: 60px; padding: 15px 0;}
+	.al-image-box img{ width: 30px }
+	.app-button-box li a{ font-size: 18px; height: 60px; padding: 10px 15px;}
+	.app-button-box li a img{ height: 30px; }
+	.app-button-box li:first-child{ margin-right: 30px; }
+	h2.page-title {font-size: 24px; }
+	.app-store-row, .tryitnow-row {height: 350px; }
+	.tryitnow-row{padding: 15px 15px 50px;}
+	.page-btn{ margin-top: 30px; width: auto; height: 60px; padding: 10px 15px; font-size: 18px; }
+
+}
+
+@media screen and (max-width:568px) { 
+	.conForm{ float: none; width: 100%; }
+	.addresslist {float: none; width: 100%; margin-top: 40px; padding: 0 }
+	.addresslist li { width: 50%;}
+	.mobile-box { width: 300px; }
+	.welcome-box h1 {font-size: 28px; }
+	.welcome-box h4{ font-size: 18px; }
+	.tryitnow-row img {bottom: -60px; }
+	.addressbox-row{ padding-top: 80px; }
+	.logo-box {width: 105px; }
+}
+
+@media screen and (max-width:479px) { 
+
+	.lp-inner-container{ display: block; padding-bottom: 40px; }
+	.mobile-box {width: 100%; }
+	.welcome-box{ padding: 0 15px; }
+	.welcome-box h1{ font-size: 24px; }
+	.mobileapp{ margin-top: 80px; }
+	.app-button-box li a{ width: 300px; float: none; }
+	.app-button-box li:first-child{ margin-right: 0; margin-bottom: 15px; }
+	.app-button-box li{ display: block; float: none; }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 400px)  {
+    .container{ width: 100%;}
+}
